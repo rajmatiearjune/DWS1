@@ -1,0 +1,135 @@
+<!--Rajmatie Arjune-->
+
+<!doctype html>  
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Signing in</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS concatenated and minified via ant build script-->
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="css/style.css?v=1">
+	<!-- end CSS-->
+	 
+</head>
+<body>
+    <div class="header">
+    	<div class="userid">Welcome User:
+    	</div>
+
+
+        <div class="buttons"> 
+    <input name="Dashboard" type="button" id="button2" value="Dashboard">
+    <input name="logOut" type="button" id="logOut" value="Sign Out" />
+        </div>       
+   
+    <div class="logo">
+    	 <img src="images/logo.png" width="356" height="186">
+    </div> 
+    	 
+    </div>
+    </div>
+    
+     
+	<br>
+    
+    <div class="plus">
+    <p><a href="a" class="modalClick"> Add +</a> </p>
+    
+    </div>
+
+    <div id="projectlist">
+    	<h3>Current Projects</h3>
+        
+        <div class="projects" id="sortable">
+        
+       	</div>
+     </div>
+      
+    <div id="overlay">
+    	<div id="modal">
+        	<span class="close">X</span>
+            <h3 class="header">Add Project</h3>
+    <div id="add">
+        	<form id="addForm">
+            <label>Project Name: </label>
+            <input name="projectName"type="text" id="projectName"/>
+        <br>
+        	<label>Project Description: </label>
+            <input name="projectDescription" type="text"
+            id="projectDescription"/>
+        <br>
+            <label>Project Due Date:</label>
+            <input name="projectDueDate" type="text"
+            id="datepicker" /><br>
+          
+            <label for="status">Select status:</label>
+         <br>
+                
+            <label class="mystatus">
+            <input type="radio" name="status" id="urgent"> <img src="images/btn1.jpg" width="69" height="75"></label>
+            
+            <label class="mystatus">
+            <input type="radio" name="status" id="normal"> <img src="images/btn2.jpg" width="69" height="75"></label>
+    
+    		<label class="mystatus">
+            <input type="radio" name="status" id="delayed"> <img src="images/btn3.jpg" width="69" height="75"></label>
+    
+    		<label class="mystatus">
+            <input type="radio" name="status" id="complete"> <img src="images/btn4.jpg" width="69" height="75"></label>
+    
+    	<br>
+      <input name="addButton" type="button" id="addButton" value="Add" />  
+        </form>
+        </div>
+        </div>
+        </div>
+        
+        
+
+        <div class="footer">
+  <h5>
+  	<a href="register.html">Contact Us</a> |
+   	<a href="about.html">About Us</a> | 
+    <a href="projects.html">My Projects</a> |
+    <a href="network.html">Networking</a> |
+    <a href="teatasting.html">Tea Tasting</a> |
+    <a href="recipes.html">Recipes</a> |
+    <a href="shop.html">Shopping</a> 
+   </h5> 
+   <hr>
+   <h6>Copyright 2014. Teas Inc.</h6>
+   
+  </div>
+
+
+      
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+<script type="text/javascript" src="js/jquery-ui1.10.4.custom.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> 
+
+<script src="http://code.jquery.com/jquery/1.11.1/min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
+</body>
+</html>

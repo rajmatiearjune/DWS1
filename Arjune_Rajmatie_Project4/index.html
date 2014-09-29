@@ -1,0 +1,145 @@
+<!--Rajmatie Arjune-->
+
+<!doctype html>  
+
+<!--
+	This is the main index of the application
+	
+	All your script tags should be at the bottom of this file
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Signing in</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS concatenated and minified via ant build script-->
+ 	 <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="css/style.css?v=1">
+    
+	<!-- end CSS-->
+	
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/white.jpg','images/black2.jpg','images/green2.jpg','images/oolong2.jpg','images/herbal2.jpg','images/white2.jpg','images/tonics2.jpg','images/fruit2.jpg')">
+
+<div id="wrapper">
+
+    <div class="header">
+    <div class="logo">
+     <img src="images/logo.png" width="356" height="186">
+ 
+ 	<div class="buttons"> 
+    <input name="Login" type="button" id="button" value="Login">
+    <input name="Register" type="button" id="button1" value="Register">
+      </div>   
+    </div>
+    </div>
+
+<div class="box">
+	<h2>Welcome to your Home Club!</h2>
+</div>
+  
+  <div id="login">
+  <p>Sign in to your Account for more options.</p>
+  <form id="loginForm">
+  
+  <label>Username: </label><input name="signinButton" type="text" id="user" value="Username" class="masterTooltip" title="Pleae enter a Username" required /><br> <br>
+  
+    <label>Password: </label><input name="signinButton" type="text" id="pass" value="Password" class="masterTooltip" title="Pleae enter a Password" required /><br> <br>
+    
+    <input type="reset"> <input name="signinButton" type="button" id="signinButton" value="Sign In" />  
+<br>
+<br>
+<hr>
+
+  	<div id="signUp">
+    <p><a href="register.html">Join Now!</a>
+  
+    Join today for free club membership. 
+    
+    <button class="signupbtn">Sign Up</button></p> Guest Enter Here! <input name="Guest" type="button" id="button3" value="Guest">
+    
+  </form>
+  </div>
+</div>
+  
+  <div id="banner">
+ <a href="teas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('White Tea','','images/white2.jpg',1)"><img src="images/white.jpg" alt="White Tea" width="106" height="108" id="White Tea"></a> 
+ <a href="teas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('black','','images/black2.jpg',1)"><img src="images/black.jpg" width="106" height="108" id="black"></a> 
+ <a href="teas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/green2.jpg',1)"><img src="images/green.jpg" alt="Green Tea" width="106" height="108" id="Image4"></a> 
+ <a href="teas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/oolong2.jpg',1)"><img src="images/oolong.jpg" alt="Oolong" width="106" height="108" id="Image5"></a> 
+ <a href="teas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','images/herbal2.jpg',1)"><img src="images/herbal.jpg" alt="herbal" width="106" height="108" id="Image6"></a> 
+ <a href="teas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/tonics2.jpg',1)"><img src="images/tonics.jpg" width="106" height="108" id="Image7"></a> 
+ <a href="teas.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','images/fruit2.jpg',1)"><img src="images/fruit.jpg" width="106" height="108" id="Image8"></a> 
+
+
+ 
+ <div id="names">
+ White Tea &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Black Tea &nbsp  &nbsp &nbsp  &nbsp &nbsp  &nbsp &nbsp Green Tea &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Oolong Tea &nbsp &nbsp &nbsp &nbsp &nbsp Herbal Infusions &nbsp &nbsp &nbsp &nbsp &nbsp   Tea Tonics &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Fruit Infusions
+ </div>
+ </div>
+
+  
+<div class="footer">
+  <h5>
+  	<a href="register.html">Contact Us</a> |
+   	<a href="about.html">About Us</a> | 
+    <a href="projects.html">My Projects</a> |
+    <a href="network.html">Networking</a> |
+    <a href="teatasting.html">Tea Tasting</a> |
+    <a href="recipes.html">Recipes</a> |
+    <a href="shop.html">Shopping</a> 
+  </h5> 
+   <hr>
+   <h6>Copyright 2014. Teas Inc.</h6>
+   
+</div>
+  
+  
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+<script type="text/javascript" src="js/jquery-ui1.10.4.custom.js"></script> 
+<script type="text/javascript" src="js/main.js"></script> 
+
+<script src="http://code.jquery.com/jquery/1.11.1/min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>  
+  
+
+</body>
+</html>
+

@@ -1,0 +1,260 @@
+/*Rajmatie Arjune*/
+
+#wrapper {
+	width: 960px;
+	background-color: #432800;
+	border-radius: 2px white;
+	margin-top: 20px;
+	margin-left: 20px;
+	}
+
+.header{
+	background-color: #FFFFFF;
+	padding: 3px;
+	color: #000000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+	
+.footer{
+	text-align:center;
+	background-color: #CCCCCC;
+	margin-top: 2%;
+	padding: 15px;
+	color: #000000;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	}
+
+h1{
+	color: #FFFFFF;
+	font-size: 1.35em;
+	}
+	
+h2{
+	font-family: "Times New Roman", Times, serif;
+	color: #DBD281;
+	font-size: 1.25em;
+	text-align: center;
+	margin-left: 10px;
+	}
+	
+h4{
+	color: #F2D73B;
+	}
+
+body {
+	margin: 0;
+	width: 960px;
+	font-size: 1em;
+	line-height: 1.231;
+	background-color: #462500;
+	background-size: auto;
+	background-image:url(../images/tea-tree-background.jpg);
+	background-repeat: round;
+	
+	 }
+	 
+#banner{
+	width: 960px;
+	background-color:#FFFFFF;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	}
+
+#names{
+	color: #443E2E;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 0.8em;
+	padding-left: 120px;
+	text-align: left;
+	padding-bottom: 10px;
+	background-color:#FFFFFF;
+	}
+	 
+#logo{
+	float: left;
+	clear: both;
+	width: auto;
+	padding: 1px;
+}
+
+.buttons{
+	float: right;
+	clear: both;
+	padding-top: 3px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	
+	}
+	
+.box{
+	size: 500px;
+	
+	text-align: center;
+
+	}
+	
+#login{
+	background-color: #c7b299;
+	width: auto;
+	padding: 5px;
+	text-align: center;
+	width: 99%;
+	}
+	
+.nav{
+	text-align: left;
+	background-color: #442700;
+	height: 400px;
+
+	}
+
+#overlay {
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.5);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1000; 
+	display: none; 
+	}
+	
+#modal {
+	width: 350px;
+	background: #C7B393;
+	box-shadow: 0 0 10px #000;
+	border-radius: 10px;
+	overflow: hidden;
+	position: relative; 
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+	z-index: 1001;
+	display: none;  
+	}
+	
+#modal .header {
+	background: #333;
+	color: #FFF;
+	padding: 10px;
+	
+	}
+	
+#modal p {
+	margin: 15px;
+	}
+	
+#modal .close {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size:16px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: 1px solid #ccc;
+	cursor: pointer;
+	background-color: #F00;
+	}
+
+form {
+	padding: 10px;
+	}
+	
+form.input {
+	padding: 10px;
+	}
+	
+header {
+	width: 960px
+	}
+
+.userid{
+	padding-left: 5px;
+	padding-top: 3px;
+	}
+.logoutbox{
+	width: 400px;
+	float: right;
+	}
+.plus{
+	float: left;
+	padding-left: 30px;
+	background-color: #FFFFFF;
+	width: 930px;
+	}
+.mystatus > input[type=radio]{
+	display: none;
+	}
+
+input[type=radio] + img{
+	cursor:pointer;
+	border: 2px solid transparent;
+	}
+
+input[type=radio]:checked + img{
+	border: 2px solid #f00;
+}
+
+#tabs {
+	background-color: #999;
+	width: auto;
+	height: 150px;
+	padding: 20px;
+	}
+
+#tabs-nav{
+	width: auto;
+	height: 75px;
+	background-color: #999;
+	text-decoration: none;
+	list-style-type: none;
+	padding-top: 10px;
+	}
+	
+#tabs-nav li {
+	display: inline;
+	}
+	
+.tooltip {
+	display: none;
+	position: absolute;
+	border: 1px solid #333;
+	background-color: #000000;
+	border-radius: 5px;
+	padding: 10px;
+	color: #fff;
+	font-size: 12px;
+	}
+	
+.signOut{
+	float: left;
+	}
+	
+#projectlist{
+	background-color:#FFFFFF;
+	padding: 10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color: #452600;
+	}
+	
+#sortable { 
+	list-style-type: none; 
+	margin: 5px; 
+	padding: 8px; 
+	width: 97%; 
+	}
+#sortable li { 
+	margin: none; 
+	padding: 0.4em; 
+	padding-left: 1.5em; 
+	font-size: 1em; 
+	height: 18px; 
+	}
+#sortable li span { 
+	position: absolute; 
+	margin-left: -1.3em; 
+	}
+	
+ 
